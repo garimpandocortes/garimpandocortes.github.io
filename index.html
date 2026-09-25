@@ -3,6 +3,6 @@
 <title>Garimpando Cortes</title>
 <script>
   var l = (navigator.language || "pt").slice(0, 2).toLowerCase();
-  location.replace(["pt", "es", "en", "de", "fr", "ja", "ko"].indexOf(l) >= 0 ? l + "/" : "pt/");
+  location.replace(({pt: "renda-extra", es: "ingreso-extra", en: "side-hustle", de: "nebeneinkommen", fr: "revenu-en-plus", ja: "fukugyo", ko: "ai-shorts"}[l] || "renda-extra") + "/");
 </script>
-<a href="pt/">Garimpando Cortes</a>
+<a href="renda-extra/">Garimpando Cortes</a>

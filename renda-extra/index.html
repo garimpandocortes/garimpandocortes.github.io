@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sua renda extra começa no próximo corte – Garimpando Cortes</title>
+<meta name="description" content="A IA corta, legenda e dubla seus vídeos em minutos. Você só aperta postar. Comece grátis hoje.">
+<meta property="og:title" content="Sua renda extra começa no próximo corte">
+<meta property="og:description" content="A IA corta, legenda e dubla seus vídeos em minutos. Comece grátis hoje.">
+<meta property="og:image" content="https://garimpandocortes.github.io/logo.jpg">
+<link rel="icon" href="../logo.jpg">
+<style>
+  :root {
+    --fundo: #0b0d10;
+    --cartao: #151a20;
+    --borda: #262d36;
+    --ouro: #f6b02b;
+    --ouro-claro: #ffd36b;
+    --texto: #f5f3ec;
+    --suave: #a9afb7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    color: var(--texto);
+    background:
+      radial-gradient(600px 380px at 50% -80px, rgba(246, 176, 43, .22), transparent 70%),
+      var(--fundo);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 520px; margin: 0 auto; padding: 26px 16px 40px; }
+  header { text-align: center; }
+  .logo {
+    width: 84px; height: 84px; border-radius: 50%;
+    border: 3px solid var(--ouro);
+    box-shadow: 0 0 0 6px rgba(246, 176, 43, .12), 0 10px 34px rgba(246, 176, 43, .35);
+  }
+  .publi { margin: 4px 0 0; font-size: 11px; color: var(--suave); opacity: .8; }
+  .prova {
+    display: inline-block; margin-top: 14px; padding: 5px 12px; border-radius: 99px;
+    font-size: 13px; font-weight: 600; color: var(--ouro-claro);
+    background: rgba(246, 176, 43, .1); border: 1px solid rgba(246, 176, 43, .35);
+  }
+  h1 { margin: 14px 0 10px; font-size: 38px; line-height: 1.05; letter-spacing: -.02em; font-weight: 900; }
+  h1 span {
+    background: linear-gradient(90deg, var(--ouro-claro), var(--ouro));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { margin: 0 auto; max-width: 420px; font-size: 18px; color: #d9d6cc; }
+  .sub b { color: var(--texto); }
+  .botao {
+    display: block; margin-top: 18px; padding: 16px; border-radius: 14px; text-align: center;
+    font-size: 18px; font-weight: 900; letter-spacing: .02em; text-decoration: none;
+    background: linear-gradient(180deg, var(--ouro-claro), var(--ouro)); color: #1a1300;
+    box-shadow: 0 10px 30px rgba(246, 176, 43, .35);
+    animation: pulso 2.2s ease-in-out infinite;
+  }
+  @keyframes pulso { 50% { transform: scale(1.03); box-shadow: 0 14px 40px rgba(246, 176, 43, .5); } }
+  @media (prefers-reduced-motion: reduce) { .botao { animation: none; } }
+  .aviso-botao { margin: 8px 0 0; font-size: 13px; color: var(--suave); text-align: center; }
+  .passos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 26px; }
+  .passo {
+    background: var(--cartao); border: 1px solid var(--borda); border-radius: 14px;
+    padding: 12px 8px; text-align: center; font-size: 13px; line-height: 1.3;
+  }
+  .passo b { display: block; font-size: 22px; color: var(--ouro); }
+  .jeito {
+    display: flex; gap: 12px; align-items: flex-start; margin-bottom: 10px; padding: 12px 14px;
+    border-radius: 14px; background: rgba(246, 176, 43, .07); border: 1px solid rgba(246, 176, 43, .25);
+    font-size: 14px; color: #d9d6cc;
+  }
+  .jeito span { font-size: 24px; line-height: 1; }
+  .jeito b { display: block; font-size: 16px; color: var(--texto); }
+  h2 { margin: 32px 0 12px; font-size: 22px; line-height: 1.2; }
+  h2 small { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; color: var(--suave); }
+  .cartao {
+    display: block; background: var(--cartao); border: 1px solid var(--borda);
+    border-radius: 16px; padding: 16px; margin-bottom: 12px;
+    color: inherit; text-decoration: none;
+    transition: transform .12s ease, border-color .12s ease;
+  }
+  .cartao:hover, .cartao:focus-visible { transform: translateY(-2px); border-color: var(--ouro); outline: none; }
+  .topo { display: flex; align-items: center; gap: 10px; }
+  .icone {
+    flex: none; width: 44px; height: 44px; border-radius: 12px;
+    display: grid; place-items: center; font-size: 22px; background: rgba(246, 176, 43, .12);
+  }
+  .nome { font-weight: 800; font-size: 17px; }
+  .selo {
+    margin-left: auto; padding: 2px 9px; border-radius: 99px; white-space: nowrap;
+    font-size: 11px; font-weight: 800; background: var(--ouro); color: #1a1300;
+  }
+  .gancho { margin: 10px 0 4px; font-size: 18px; font-weight: 800; line-height: 1.25; }
+  .desc { margin: 0; font-size: 14px; color: var(--suave); }
+  .acao { display: inline-block; margin-top: 10px; font-weight: 800; color: var(--ouro); }
+  .destaque { border: 2px solid var(--ouro); background: linear-gradient(160deg, #2a200b, var(--cartao) 55%); }
+  footer { margin-top: 34px; font-size: 12px; color: var(--suave); text-align: center; }
+  footer a { color: var(--suave); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" src="../logo.jpg" alt="Garimpando Cortes">
+    <p class="publi">Publicidade · contém links de afiliado</p>
+    <div><span class="prova">💰 Para quem quer uma renda extra na internet</span></div>
+    <h1>Sua renda extra começa<br><span>no próximo corte.</span></h1>
+    <p class="sub">Canal de cortes é um dos jeitos mais simples de começar a ganhar na internet: <b>sem aparecer</b> e <b>sem saber editar</b>. A IA faz o trabalho pesado. Você só aperta <b>postar</b>.</p>
+    <a class="botao" href="https://submagic.co/?via=luan-ae4692" rel="sponsored noopener">QUERO TESTAR GRÁTIS →</a>
+    <p class="aviso-botao">Comece hoje, sem pagar nada.</p>
+  </header>
+
+  <div class="passos">
+    <div class="passo"><b>1</b>Cole o link do vídeo</div>
+    <div class="passo"><b>2</b>A IA corta e legenda</div>
+    <div class="passo"><b>3</b>Você posta e cresce</div>
+  </div>
+
+  <h2>3 jeitos de ganhar dinheiro com cortes<small>Escolha um. Ou faça os três.</small></h2>
+  <div class="jeito"><span>💸</span><div><b>Receba por visualização</b>Marcas e podcasts fazem campanhas que pagam a cada mil visualizações dos seus cortes.</div></div>
+  <div class="jeito"><span>✂️</span><div><b>Venda cortes prontos</b>Criador de conteúdo paga quem entrega cortes legendados todo dia. Com IA, você entrega em minutos.</div></div>
+  <div class="jeito"><span>📈</span><div><b>Faça seu canal crescer</b>Canal com audiência abre a porta para monetização, parcerias e publis.</div></div>
+
+  <h2>O kit para começar hoje<small>As ferramentas dos cortes que bombam. Todas com versão grátis.</small></h2>
+
+  <a class="cartao destaque" href="https://submagic.co/?via=luan-ae4692" rel="sponsored noopener">
+    <div class="topo"><div class="icone">✂️</div><div class="nome">Submagic</div><span class="selo">TESTE GRÁTIS</span></div>
+    <p class="gancho">A legenda que prende até o último segundo.</p>
+    <p class="desc">O estilo de legenda animada dos cortes que viralizam, em 1 clique. Emojis, destaques e cortes automáticos, em mais de 40 idiomas.</p>
+    <span class="acao">Quero legendas assim →</span>
+  </a>
+
+  <a class="cartao" href="https://opus.pro/?via=luan" rel="sponsored noopener">
+    <div class="topo"><div class="icone">🎬</div><div class="nome">OpusClip</div><span class="selo">GRÁTIS</span></div>
+    <p class="gancho">1 vídeo longo vira vários cortes. Sozinho.</p>
+    <p class="desc">Cole um podcast ou uma live: a IA acha os melhores momentos, corta na vertical e dá nota de potencial viral para cada corte.</p>
+    <span class="acao">Quero meus cortes prontos →</span>
+  </a>
+
+  <a class="cartao" href="https://try.elevenlabs.io/xudbv48393dc" rel="sponsored noopener">
+    <div class="topo"><div class="icone">🌎</div><div class="nome">ElevenLabs</div><span class="selo">GRÁTIS</span></div>
+    <p class="gancho">Seu vídeo falando outras línguas. Com voz real.</p>
+    <p class="desc">Dublagem e narração com IA que parece gente de verdade. Poste o mesmo vídeo para o mundo inteiro.</p>
+    <span class="acao">Quero dublar meus vídeos →</span>
+  </a>
+
+  <h2>Quer ir além?<small>Aprenda com quem já faz.</small></h2>
+
+  <a class="cartao" href="https://go.hotmart.com/I107769446L" rel="sponsored noopener">
+    <div class="topo"><div class="icone">▶️</div><div class="nome">Mestre do Youtube</div></div>
+    <p class="gancho">Transforme views em vendas.</p>
+    <p class="desc">O caminho do zero ao avançado para vender qualquer produto pelo YouTube: SEO, estratégia e parcerias com influenciadores.</p>
+    <span class="acao">Quero vender pelo YouTube →</span>
+  </a>
+
+  <a class="cartao" href="https://go.hotmart.com/L107769455L" rel="sponsored noopener">
+    <div class="topo"><div class="icone">📱</div><div class="nome">Edição com CapCut</div></div>
+    <p class="gancho">Edição de cinema no celular. E cobre por isso.</p>
+    <p class="desc">eBook que ensina a editar com cara profissional no CapCut e a transformar essa habilidade em renda.</p>
+    <span class="acao">Quero editar como profissional →</span>
+  </a>
+
+  <a class="cartao" href="https://systeme.io/pt?sa=sa0282415280b0b506f8886f33931ef05eaa07bdf7" rel="sponsored noopener">
+    <div class="topo"><div class="icone">🚀</div><div class="nome">Systeme.io</div><span class="selo">GRÁTIS</span></div>
+    <p class="gancho">Seu negócio online no ar hoje, sem gastar nada.</p>
+    <p class="desc">Página de vendas, curso online e e-mail marketing num lugar só, com plano gratuito para sempre.</p>
+    <span class="acao">Quero montar o meu →</span>
+  </a>
+
+  <a class="botao" href="https://submagic.co/?via=luan-ae4692" rel="sponsored noopener">COMEÇAR GRÁTIS AGORA →</a>
+
+  <footer>
+    Alguns links desta página são links de afiliado: se você assinar ou comprar, o Garimpando Cortes recebe uma comissão, sem custo extra para você.
+    Ganhos dependem do seu trabalho e não são garantidos.
+    <br><br><a href="https://www.youtube.com/channel/UCNsqlrmbVA8wQ2ZNuaSAiEw">Voltar para o canal</a>
+  </footer>
+</main>
+</body>
+</html>
